@@ -1,0 +1,25 @@
+/* .rectangle {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+} */
+.para {
+  background-color: cadetblue;
+  height: 100px;
+  width: 350px;
+  border-radius: 6px;
+  border: 15px solid lawngreen;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 10px 5px 2px 1px;
+}
+.heading {
+  text-align: center;
+  color: rgb(118, 93, 55);
+}

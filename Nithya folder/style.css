@@ -1,0 +1,28 @@
+.para {
+  color: red;
+  text-align: center;
+}
+.image1 {
+  /* Rounded rectangle with 10px border-radius */
+  border-radius: 10px;
+  margin-left: 350px;
+}
+
+/* Dashed border with 2px width and black color */
+.image2 {
+  border: 2px dashed black;
+}
+
+/* Grayscale filter to make the images grayscale */
+.image3 {
+  filter: grayscale(100%);
+}
+* {
+  background-color: bisque;
+}
+.p {
+  text-align: center;
+}
+.alink {
+  text-align: center;
+}

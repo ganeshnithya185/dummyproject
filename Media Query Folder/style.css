@@ -1,0 +1,290 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-image: url("https://cdn.ceoworld.biz/wp-content/uploads/2021/05/Soneva-Fushi.jpg");
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-left: 50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1a1717;
+  font-size: larger;
+ 
+}
+
+/* Optional: Style the image if needed */
+.navbar img {
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.login {
+  background-color: #a43225;
+  margin-left: 300px;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.signup {
+  background-color: #a43225;
+  font-weight: bolder;
+  font-size:20%
+  padding-right:20px;
+}
+.home {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.travel {
+  display: flex;
+  padding-top: 20px;
+  color: rgb(67, 9, 148);
+  text-align: center;
+  padding-left: 60px;
+}
+.span {
+  color: rgb(253, 251, 251);
+  padding-left:70px
+
+
+}
+.findout {
+  background-color: blue;
+  color: white;
+ 
+
+}
+.category1 {
+  text-align: center;
+  justify-content: center;
+  color: blue;
+}
+.heading2 {
+  text-align: center;
+  font-size: xx-large;
+  color: #1e1238;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: #ddc3c3;
+  width
+}
+.icon {
+  height: 300px;
+  width: 200px;
+  padding: 30px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.para {
+  text-align: center;
+  justify-content: center;
+
+}
+.heading3 {
+  text-align: center;
+}
+.heading4 {
+  text-align: center;
+  justify-content: center;
+  color: #2f1273;
+}
+.top {
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  color: #120b23;
+}
+.rectangle {
+  height: 400px;
+  width: 300px;
+}
+.container-card {
+  display: flex;
+  padding-left: 280px;
+  gap: 20px;
+  box-shadow: #1e1238;
+  border-radius: 2px solid grey;
+  
+}
+.Image {
+  border-radius: 20px;
+  height: 350px;
+}
+.card-content {
+  padding: 20px;
+}
+.paragraph {
+  color:darkgray
+
+}
+
+.paragraph1 {
+  font-size: 16px;
+}
+.easy {
+  padding-left: 350px;
+  font-size:20px;
+  font-weight: bolder;
+  color:grey
+}
+.trip-container {
+  height: 460px;
+  width: 500px;
+}
+.container-trip {
+  display: flex;
+  padding-left: 300px;
+  gap: 50px;
+}
+.Image-trip {
+  height: 180px;
+  width: 350px;
+  border-radius: 40px;
+  padding-bottom: 20px;
+  margin-top: 70px;
+}
+.why {
+  align-items: center;
+  justify-content: center;
+  padding-left: 650px;
+}
+.para3 {
+  align-items: center;
+  padding-left: 300px;
+  justify-content: center;
+  max-width: 1000px;
+  display: flex;
+}
+.container-why {
+}
+.card-icons {
+  height: 300px;
+  width: 400px;
+}
+.container-icons {
+  display: flex;
+  gap: 10px;
+  padding-left: 250px;
+}
+.heading6 {
+  justify-content: center;
+  text-align: center;
+  color: #4a3f63;
+}
+.container-email {
+  display: flex;
+  padding-left: 500px;
+  gap: 450px;
+}
+.cart-email {
+  font-size: small;
+}
+.cart-subscribe {
+  background-color: #b44e42;
+  width:100px
+}
+.container-finish {
+  display: flex;
+  gap: 40px;
+  padding: 200px;
+}
+.About-finish {
+  width: 250px;
+  height: 100px;
+}
+.About-discover {
+  gap: 50px;
+}
+.bonvoyage {
+  text-align: center;
+  justify-content: center;
+  color:grey
+}
+.icon1{
+  align-items: center;
+  padding-left: 60px;
+}
+.icons2{
+  align-items: center;
+  padding-left: 60px;
+}
+.icons3{
+  align-items: center;
+  padding-left: 60px;
+}
+.icons4{
+  align-items: center;
+  padding-left: 60px;
+}
+.icons5{
+ text-underline-offset: none;
+}
+.card-item{
+  box-shadow:cornflowerblue
+  border:2px solid grey
+ 
+}
+.paragraph-greece{
+  color:black
+}
+.paragraph-24{
+  color:grey
+}
+.parasign{
+  width:200px;
+  height:200px;
+}
+.world{
+  align-items: center;
+  padding-left: 50px;
+}
+.About{
+  color:grey
+}
+.company{
+  color:black;
+  font-weight: bolder;
+}
+.choose{
+  color:grey;
+  font-weight: bolder;
+  font-size:large;
+}
+.dummy{
+  color:grey
+}

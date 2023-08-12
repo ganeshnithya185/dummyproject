@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.cursor-example {
+  margin-bottom: 10px;
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+.cursor-crosshair {
+  cursor: crosshair;
+  background-color: aqua;
+}
+
+.cursor-help {
+  cursor: help;
+  background-color: darkgray;
+}
+
+.cursor-grab {
+  cursor: grab;
+  background-color: crimson;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+  background-color: darkgreen;
+}

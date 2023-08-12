@@ -1,0 +1,79 @@
+.heading2 {
+  text-align: center;
+  color: rgb(198, 81, 165);
+}
+.div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: transform 0.6s ease; /* Adding transition for smooth movement */
+}
+
+/* Add a hover effect to move the element when the mouse is over it */
+.div:hover {
+  transform: translate(
+    50px,
+    50px
+  ); /* Move the element 50px to the right and 50px down */
+}
+
+.tooltip {
+  position: relative;
+  /* Add any other styles for the elements */
+}
+
+/* Tooltip text using ::before pseudo-element */
+.tooltip:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%; /* Position above the element */
+  left: 20%; /* Center the tooltip horizontally */
+  transform: translateX(-50%); /* Center the tooltip horizontally */
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap; /* Prevent tooltip from wrapping */
+  opacity: 0.8;
+  pointer-events: none; /* Ignore hover on the tooltip itself */
+}
+.heading3 {
+  text-align: center;
+  color: chartreuse;
+}
+img {
+  position: absolute;
+  clip: rect(0px, 60px, 100px, 20px);
+}
+.heading4 {
+  text-align: center;
+  color: rgb(50, 173, 177);
+}
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: cyan;
+}
+.heading5 {
+  text-align: center;
+  color: rgb(162, 177, 50);
+}
+.border-image {
+  width: 300px;
+  height: 200px;
+  border-width: 30px;
+  border-style: solid;
+  border-image-source: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTz-1YnOISR5J813H6bY4-9novH5orw_EEiC52V4AvnA&s");
+  border-image-slice: 30;
+  border-image-repeat: stretch;
+}
+.heading6 {
+  text-align: center;
+  color: rgb(177, 50, 50);
+}
