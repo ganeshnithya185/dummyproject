@@ -1,0 +1,8 @@
+.heading1 {
+  align-items: center;
+  text-align: center;
+}
+table * {
+  border: 2px solid black;
+  width: 100vw;
+}
